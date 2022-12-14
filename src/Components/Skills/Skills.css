@@ -1,0 +1,30 @@
+#aboutskills
+{
+    margin-left: 250px;
+}
+#maintitle
+{
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+    background-color: #c5bdb2;
+}
+.iconcont
+{
+    width: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#iconparent
+{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Iconimg
+{
+    width: 50%;
+    margin: 10px 0px;
+}
