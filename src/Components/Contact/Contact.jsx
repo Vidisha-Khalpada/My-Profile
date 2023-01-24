@@ -21,11 +21,11 @@ const Contact=()=>
                 </div>
                 <div className='text'>
                 < GrGithub/>
-                <a href='https://github.com/Vidisha-Khalpada'><h4>github.com/Vidisha-Khalpada</h4></a>
+                <a href='https://github.com/Vidisha-Khalpada' target="_blank"><h4>github.com/Vidisha-Khalpada</h4></a>
                 </div>
                 <div className='text'>
                 < BsLinkedin/>
-                <a href='https://www.linkedin.com/in/vidisha-khalpada-748740184/'><h4>linkedin.com/in/vidisha-khalpada</h4></a>
+                <a href='https://www.linkedin.com/in/vidisha-khalpada-748740184/' target="_blank"><h4>linkedin.com/in/vidisha-khalpada</h4></a>
                 </div>
             </div>
         </div>

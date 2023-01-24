@@ -23,8 +23,8 @@ const Project=()=>
                                 <p> JS</p>   
                             </div>
                             <div id='icons'>
-                                <a href="https://github.com/shivam-m-7/asos"><GrGithub /></a>
-                                <a href="https://clone-asos.netlify.app/"><CgMediaLive /></a>
+                                <a href="https://github.com/shivam-m-7/asos" target="_blank"><GrGithub /></a>
+                                <a href="https://clone-asos.netlify.app/" target="_blank"><CgMediaLive /></a>
                             </div>
                             <h4>A collaborative project built by a team of 4 Full Stack Web Developers executed in a week.</h4>
                         
@@ -66,8 +66,8 @@ const Project=()=>
                                 <p> JS</p>   
                             </div>
                             <div id='icons'>
-                                <a href="https://github.com/Vidisha-Khalpada/BookMyShow"><GrGithub /></a>
-                                <a href=""><CgMediaLive /></a>
+                                <a href="https://github.com/Vidisha-Khalpada/BookMyShow" target="_blank"><GrGithub /></a>
+                                <a href="https://bookmyshowclone-9.netlify.app/" target="_blank"><CgMediaLive /></a>
                             </div>
                             <h4>A collaborative project built by a team of 5 Full Stack Web Developers executed in a week.</h4>
                     </div>

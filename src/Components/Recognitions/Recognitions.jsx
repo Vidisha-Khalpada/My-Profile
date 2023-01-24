@@ -23,8 +23,8 @@ const Recognitions=()=>
                 <div id='imgcontbad'>
                     <img src={PS}></img>
                     <div id='imgconta'>
-                    <a href="https://www.hackerrank.com/certificates/abd39c349f6c"><GrCertificate /></a>
-                    <a href="https://www.hackerrank.com/certificates/6c26778f050f"><GrCertificate /></a>
+                    <a href="https://www.hackerrank.com/certificates/abd39c349f6c" target="_blank"><GrCertificate /></a>
+                    <a href="https://www.hackerrank.com/certificates/6c26778f050f" target="_blank"><GrCertificate /></a>
                     </div>
                     <img src={Java}></img>
                 </div>

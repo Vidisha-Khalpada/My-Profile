@@ -52,3 +52,33 @@
     padding: 10px;
     align-items: center;
 }
+@media screen and (max-width: 1024px)
+{
+    #aboutrecog
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #iconparent
+    {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 450px)
+{
+    #aboutrecog
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #iconparent
+    {
+        width: 100%;
+    }
+    #imgconta
+    {
+        display: flex;
+        width: 40%;
+    }
+}

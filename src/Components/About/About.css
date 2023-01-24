@@ -56,3 +56,37 @@
     line-height: 35px;
     margin-right: 20px;
 }
+@media screen and (max-width: 1024px)
+{
+    #aboutsec
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #ab
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    #aboutsec
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #ab
+    {
+        width: 100%;
+    }
+    #abmc
+    {
+        display: block;
+        width: 95%;
+        margin: auto;
+    }
+    #details
+    {
+        width: 100%;
+    }
+}

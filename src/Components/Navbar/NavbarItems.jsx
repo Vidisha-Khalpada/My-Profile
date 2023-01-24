@@ -1,11 +1,11 @@
 import './Navbar.css'
 const NavbarItems=(props)=>
 {
-   let {image,name,link}=props
+   let {image,name,link,target}=props
     return(
         <div className='linkdisp'>
                     <img src={image}/>
-                    <a href={link}><h4>{name}</h4></a>
+                    <a href={link} target={target} ><h4>{name}</h4></a>
                 </div>
     )
 }

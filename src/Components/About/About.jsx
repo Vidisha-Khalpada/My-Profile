@@ -36,9 +36,9 @@ const About=()=>
                         <h4>Gujarat, India</h4>
                         </div>
                         <div id='abticons' className='text'>
-                        <a href="https://github.com/Vidisha-Khalpada"><GrGithub/></a>
-                        <a href="https://www.linkedin.com/in/vidisha-khalpada-748740184/"><BsLinkedin/></a>
-                        <a href="https://drive.google.com/file/d/1qK0ZbBWJtibuOelWwQXB00GYiT6L0nMm/view?usp=share_link"><BiDetail/></a>
+                        <a href="https://github.com/Vidisha-Khalpada" target="_blank"><GrGithub/></a>
+                        <a href="https://www.linkedin.com/in/vidisha-khalpada-748740184/" target="_blank"><BsLinkedin/></a>
+                        <a href="https://drive.google.com/file/d/1qK0ZbBWJtibuOelWwQXB00GYiT6L0nMm/view?usp=share_link" target="_blank"><BiDetail/></a>
                         </div>
                     
                     

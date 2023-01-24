@@ -19,3 +19,35 @@
     margin: 10px 0px 20px 20px;
     padding: 5px 0px;
 }
+@media screen and (max-width: 1024px)
+{
+    #aboutcontact
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #iconparent
+    {
+        width: 100%;
+    }
+    #contdetails
+    {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    #aboutcontact
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #iconparent
+    {
+        width: 100%;
+    }
+    #contdetails
+    {
+        width: 95%;
+    }
+}

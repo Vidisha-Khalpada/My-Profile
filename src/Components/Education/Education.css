@@ -10,8 +10,6 @@
 }
 .courseitem
 {
-    width: 30%;
-    margin: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -20,5 +18,48 @@
 }
 #coursecont
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+@media screen and (max-width: 1024px)
+{
+    #abouteduc
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #iconparent
+    {
+        width: 100%;
+    }
+    #coursecont
+    {
+        width: 95%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 530px)
+{
+    #abouteduc
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #iconparent
+    {
+        width: 100%;
+    }
+    #coursecont
+    {
+        width: 95%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .courseitem h2
+    {
+        font-size: 18px;
+    }
 }

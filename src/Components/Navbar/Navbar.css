@@ -72,7 +72,7 @@
     position: absolute;
     color: whitesmoke;
     top: 5%;
-    left: 20%;
+    left: 25%;
 }
 #homeicons
 {
@@ -85,4 +85,128 @@
 {
     color: whitesmoke;
     font-size: 25px;
+}
+#hamburger
+{
+    display: none;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1025px)
+{
+    #navbar
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 20vh;
+        width: 100%;
+        margin: auto;
+        z-index: 100;
+        background-color: lightgray;
+    }
+    #navbarlink
+    {
+        width: 20%;
+        display: none;
+    }
+    #navbarlinkmq
+    {
+        position: absolute;
+        width: 50%;
+        background-color: white;
+        z-index: 100;
+        top: 5%;
+        left: 50%;
+    }
+    #navbarleft
+    {
+        display: flex;
+        justify-content: flex-start;
+        gap:40px;
+        align-items: center;
+        width: 100%;
+    }
+    #profilepic
+    {
+        width: 15%;
+    }
+    #home
+    {
+        margin-top: 150px;
+        width: 100%;
+    }
+    #homeicons+h1
+    {
+        position: absolute;
+        width: 50%;
+        color: whitesmoke;
+        top: 25%;
+        left: 5%;
+    }
+    #homeicons
+    {
+        position: absolute;
+        top: 25%;
+        left: 90%;
+        line-height: 35px;
+    }
+    #hamburger
+    {
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 500px)
+{
+    #navbar
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 20vh;
+        width: 100%;
+        margin: auto;
+        z-index: 100;
+    }
+    #navbarlink
+    {
+        width: 20%;
+        display: none;
+    }
+    #navbarleft
+    {
+        display: flex;
+        gap:20px;
+        align-items: center;
+        width: 100%;
+    }
+    #profilepic
+    {
+        width: 15%;
+    }
+    #home
+    {
+        margin-top: 170px;
+        width: 100%;
+    }
+    #homeicons+h1
+    {
+        position: absolute;
+        width: 80%;
+        font-size: 22px;
+        color: whitesmoke;
+        top: 25%;
+        left: 5%;
+    }
+    #homeicons
+    {
+        position: absolute;
+        top: 22%;
+        left: 90%;
+        line-height: 35px;
+    }
+    #hamburger
+    {
+        display: block;
+    }
 }
